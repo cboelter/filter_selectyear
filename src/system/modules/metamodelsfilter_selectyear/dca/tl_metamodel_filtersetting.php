@@ -8,9 +8,9 @@
  *
  * PHP version 5
  * @package    MetaModels
- * @subpackage FilterSelect
- * @author     Christian de la Haye <service@delahaye.de>
- * @copyright  The MetaModels team.
+ * @subpackage FilterSelectYear
+ * @author     Christopher Bölter <c.boelter@cogizz.de>
+ * @copyright  cogizz - digital communications
  * @license    LGPL.
  * @filesource
  */
@@ -18,19 +18,15 @@
 /**
  * palettes
  */
-$GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['select extends _attribute_']['+fefilter'][] =
+$GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['selectyear extends _attribute_']['+fefilter'][] =
 	'label';
-$GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['select extends _attribute_']['+fefilter'][] =
+$GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['selectyear extends _attribute_']['+fefilter'][] =
 	'template';
-$GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['select extends _attribute_']['+fefilter'][] =
-	'defaultid';
-$GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['select extends _attribute_']['+fefilter'][] =
+$GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['selectyear extends _attribute_']['+fefilter'][] =
 	'blankoption';
-$GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['select extends _attribute_']['+fefilter'][] =
-	'onlyused';
-$GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['select extends _attribute_']['+fefilter'][] =
+$GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['selectyear extends _attribute_']['+fefilter'][] =
 	'onlypossible';
-$GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['select extends _attribute_']['+fefilter'][] =
+$GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['selectyear extends _attribute_']['+fefilter'][] =
 	'skipfilteroptions';
-$GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['select extends _attribute_']['+config'][]   =
+$GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['selectyear extends _attribute_']['+config'][]   =
 	'urlparam';

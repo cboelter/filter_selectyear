@@ -8,9 +8,9 @@
  *
  * PHP version 5
  * @package    MetaModels
- * @subpackage FilterSelect
- * @author     Christian de la Haye <service@delahaye.de>
- * @copyright  The MetaModels team.
+ * @subpackage FilterSelectYear
+ * @author     Christopher Bölter <c.boelter@cogizz.de>
+ * @copyright  cogizz - digital communications
  * @license    LGPL.
  * @filesource
  */

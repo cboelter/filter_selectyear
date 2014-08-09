@@ -1,17 +1,21 @@
 <?php
+
 /**
- * Translations are managed using Transifex. To create a new translation
- * or to help to maintain an existing one, please register at transifex.com.
+ * The MetaModels extension allows the creation of multiple collections of custom items,
+ * each with its own unique set of selectable attributes, with attribute extendability.
+ * The Front-End modules allow you to build powerful listing and filtering of the
+ * data in each collection.
  *
- * @link http://help.transifex.com/intro/translating.html
- * @link https://www.transifex.com/projects/p/metamodels/language/de/
- *
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
- *
- * last-updated: 2013-05-13T22:14:30+02:00
+ * PHP version 5
+ * @package    MetaModels
+ * @subpackage FilterSelectYear
+ * @author     Christopher Bölter <c.boelter@cogizz.de>
+ * @copyright  cogizz - digital communications
+ * @license    LGPL.
+ * @filesource
  */
 
-
-$GLOBALS['TL_LANG']['tl_metamodel_filtersetting']['defaultid']['0']      = 'Standard';
-$GLOBALS['TL_LANG']['tl_metamodel_filtersetting']['defaultid']['1']      = 'Standardwert für die Auswahl.';
-$GLOBALS['TL_LANG']['tl_metamodel_filtersetting']['typenames']['select'] = 'Einzelauswahl';
+$GLOBALS['TL_LANG']['tl_metamodel_filtersetting']['defaultid']['0']      		= 'Standard';
+$GLOBALS['TL_LANG']['tl_metamodel_filtersetting']['defaultid']['1']      		= 'Standardwert für die Auswahl.';
+$GLOBALS['TL_LANG']['tl_metamodel_filtersetting']['typenames']['selectyear']	= 'Einzelauswahl Jahr';
+$GLOBALS['TL_LANG']['tl_metamodel_filtersetting']['typedesc']['selectyear']  	= '%s <strong>%s</strong> %s <br /> für Attribut <em>%s</em>';

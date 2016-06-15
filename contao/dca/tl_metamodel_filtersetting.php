@@ -7,10 +7,11 @@
  * data in each collection.
  *
  * PHP version 5
+ *
  * @package    MetaModels
  * @subpackage FilterSelectYear
- * @author     Christopher Bölter <c.boelter@cogizz.de>
- * @copyright  cogizz - digital communications
+ * @author     Christopher Bölter <metamodels@boelter.eu>
+ * @copyright  Christopher Bölter 2016
  * @license    LGPL.
  * @filesource
  */
@@ -19,14 +20,14 @@
  * palettes
  */
 $GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['selectyear extends _attribute_']['+fefilter'][] =
-	'label';
+    'label';
 $GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['selectyear extends _attribute_']['+fefilter'][] =
-	'template';
+    'template';
 $GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['selectyear extends _attribute_']['+fefilter'][] =
-	'blankoption';
+    'blankoption';
 $GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['selectyear extends _attribute_']['+fefilter'][] =
-	'onlypossible';
+    'onlypossible';
 $GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['selectyear extends _attribute_']['+fefilter'][] =
-	'skipfilteroptions';
+    'skipfilteroptions';
 $GLOBALS['TL_DCA']['tl_metamodel_filtersetting']['metapalettes']['selectyear extends _attribute_']['+config'][]   =
-	'urlparam';
+    'urlparam';

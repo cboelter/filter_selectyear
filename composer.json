@@ -1,51 +1,54 @@
 {
-	"name":"cogizz/filter_selectyear",
-	"description":"MetaModels select filter year",
-	"keywords":["contao", "metamodels", "filter", "select", "selectyear"],
-	"type":"contao-module",
-	"homepage":"http://now.metamodel.me/",
-	"license":"LGPL-3.0+",
-	"authors":[
-		{
-			"name":"Christopher Bölter",
-			"email":"info@cogizz.de",
-			"homepage":"http://www.cogizz.de",
-			"role":"Developer"
-		}
-	],
-	"support":{
-		"issues":"https://github.com/cogizz/metamodelsfilter_selectyear/issues",
-		"source":"https://github.com/cogizz/metamodelsfilter_selectyear"
-	},
-	"require":{
-		"php":">=5.3",
-		"contao/core": ">=2.11,<4.0",
-		"contao-community-alliance/composer-plugin": "*",
-		"metamodels/core":"~2.0.0"
-	},
-	"require-dev": {
-		"metamodels/php-coding-standard":"dev-master",
-		"cyberspectrum/contao-toolbox": "dev-master",
-		"phpunit/phpunit": ">=3.7.10,<4-dev"
-	},
-	"conflict": {
-		"contao/core": "3.0.*"
-	},
-	"autoload": {
-		"psr-0": {
-			"MetaModels": "src/system/modules/metamodelsfilter_selectyear"
-		}
-	},
-	"extra":{
-		"contao": {
-			"symlinks":{
-				"src/system/modules/metamodelsfilter_selectyear":"system/modules/metamodelsfilter_selectyear"
-			}
-		},
-		"branch-alias": {
-			"dev-master": "2.0.x-dev"
-		}
-	},
-	"minimum-stability": "dev",
-	"prefer-stable": true
+  "name": "cboelter/metamodelsfilter_selectyear",
+  "description": "MetaModels select filter year",
+  "keywords": [
+    "contao",
+    "metamodels",
+    "filter",
+    "select",
+    "selectyear"
+  ],
+  "type": "contao-module",
+  "license": "LGPL-3.0+",
+  "authors": [
+    {
+      "name": "Christopher Bölter",
+      "email": "metamodels@boelter.de",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/cboelter/metamodelsfilter_selectyear/issues",
+    "source": "https://github.com/cboelter/metamodelsfilter_selectyear"
+  },
+  "require": {
+    "php": ">=5.3",
+    "contao/core": ">=3.5,<4.0",
+    "contao-community-alliance/composer-installer": "*",
+    "metamodels/core": "~2.0.0"
+  },
+  "require-dev": {
+    "phpcq/all-tasks": "1.1.0"
+  },
+  "conflict": {
+    "contao/core": "3.4.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "MetaModels\\Filter\\Setting\\": "src"
+    }
+  },
+  "extra": {
+    "contao": {
+      "symlinks": {
+        "contao": "system/modules/metamodelsfilter_selectyear"
+      }
+    },
+    "branch-alias": {
+      "dev-master": "2.0.x-dev",
+      "dev-develop": "2.1.x-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
